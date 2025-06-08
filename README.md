@@ -66,4 +66,26 @@ Ans: - Wireshark captures and analyzes packer level traffic. It completements po
 ############################################################################################################
 Task 2
 
-1. 
+1.What is phishing?
+Ans: Phisihing is an act of hacking in which threat actor makes legitimate looking website or emails to fool user to give sensitive data ususally login credentials.
+
+2.How to identify a phishing email?
+Ans: Phishing emails generally contains different domain than intented, have threatening or urgengy in the tone of language used. Usually have grammatical or spelling errors. The header oof theses messages are not legitimate.
+
+3.What is email spoofing?
+Ans: Email spoofing is an act of making a fake email that looks much like a legitimate email in order to fool anyone.
+
+4.Why are phishing emails dangerous?
+Ans: Phishing emails are dangerous as they can make someone to give out there sensitive informations to the threat actor.
+
+5.How can you verify the sender’s authenticity?
+Ans: the senders authenticity can be verified by making sure to check the domain name for businesses. If it is a personal mail then make sure to verify via any other mode of communicaiton such as texting or by calling.
+
+6.What tools can analyze email headers?
+Ans: Some tools to analyze email headers are: MXToolbox, Google Admin Toolbox and mailheader.org.
+
+7. What actions should be taken on suspected phishing emails?
+Ans: Do not click on hyperlinks, do not reply, report to the IT admin also mark it as spam.
+
+8.How do attackers use social engineering in phishing?
+Ans: Attackers usually use human emotions to exploit users to social engineering such as: threaten, urgency, curiosity or fear.
