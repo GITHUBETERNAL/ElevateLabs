@@ -1,0 +1,23 @@
+1.Install Wireshark.
+Ans: Wireshare already installed in kali linux
+
+2.Start capturing on your active network interface.
+Ans: Started packet capture on eth0
+
+3.Browse a website or ping a server to generate traffic.
+Ans: went on kali.org
+
+4.Stop capture after a minute.
+Ans: Captuured 472 packets in 72 seconds.
+
+5.Filter captured packets by protocol (e.g., HTTP, DNS, TCP).
+Ans: Wrote "Tcp", "http", "DNS" in the filter bar.
+
+6.Identify at least 3 different protocols in the capture.
+Ans: Some of the protocols are, TCP, UDP, ARP, LSD, DNS, OCSP etc.
+
+7.Export the capture as a .pcap file.
+Ans: Exported the captured packets by going into File>Save then entering name and then save.
+
+8.Summarize your findings and packet details.
+Ans: The packets contain frame number, size on wire, bytes captured, interface name, id, source, destination, protocol name,ports, Message content in hex etc.
