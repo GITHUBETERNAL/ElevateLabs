@@ -1,0 +1,37 @@
+1.Open firewall configuration tool (Windows Firewall or terminal for UFW).
+Ans: Started UFW using "sudo ufw enable"
+
+2.List current firewall rules.
+Ans: Listed  current firewall rules using "sudo ufw status verbose"
+
+3.Add a rule to block inbound traffic on a specific port (e.g., 23 for Telnet).
+Ans: blocked Telnet using "sudo ufw deny 23"
+O/P: Rule added
+Rule added (v6)
+
+
+4.Test the rule by attempting to connect to that port locally or remotely.
+Ans: tested connection using"telnet localhost 23"
+Output: Trying ::1...
+Connection failed: Connection refused
+Trying 127.0.0.1...
+telnet: Unable to connect to remote host: Connection refused
+
+
+5.Add rule to allow SSH (port 22) if on Linux.
+Ans: Changed rule using "sudo ufw allow 22"
+Output: Rule added
+Rule added (v6)
+
+
+6.Remove the test block rule to restore original state.
+Ans: removed using "sudo ufw delete deny 23"
+Output: Rule deleted
+Rule deleted (v6)
+
+
+7.Document commands or GUI steps used.
+Ans: Documented in screenshot
+
+8.Summarize how firewall filters traffic.
+Ans: A firewall filters traffic by applying rules that decide weather to allow or deny the particular Ip Addresses, ports or protocols. It the rule mathces allow, the packet goes through. If rule matches deny/block, the packet is not allowed to go through. If no rule is mentioned, then wither the packet is denied or prompted.
