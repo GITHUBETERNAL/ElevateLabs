@@ -1,0 +1,23 @@
+1.Install OpenVAS or Nessus Essentials.
+Ans: 
+
+2.Set up scan target as your local machine IP or localhost.
+Ans:
+
+3.Start a full vulnerability scan.
+Ans: 
+
+4.Wait for scan to complete (may take 30-60 mins).
+Ans: 
+
+5.Review the report for vulnerabilities and severity.
+Ans:
+
+6.Research simple fixes or mitigations for found vulnerabilities.
+Ans:
+
+7.Document the most critical vulnerabilities.
+Ans:
+
+8.Take screenshots of the scan results.
+Ans:
