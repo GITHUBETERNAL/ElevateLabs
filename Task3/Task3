@@ -1,23 +1,25 @@
 1.Install OpenVAS or Nessus Essentials.
-Ans: 
+Ans: Installed Nessus Essentials and opened it on localhost 8834.
 
 2.Set up scan target as your local machine IP or localhost.
-Ans:
+Ans: Setted up the target and prolicies for scan
 
 3.Start a full vulnerability scan.
-Ans: 
+Ans: Started Full vulnerability scan from advanced scan.
 
 4.Wait for scan to complete (may take 30-60 mins).
-Ans: 
+Ans: Completed the scan.
 
 5.Review the report for vulnerabilities and severity.
-Ans:
+Ans: 1 Critical, 4 High and 2 Medium Vulnerabilities found
 
 6.Research simple fixes or mitigations for found vulnerabilities.
-Ans:
+Ans: One of the vulnerabilities is that the Node js is of older version and needs to be updated. update the version and all set. 
+Another needs tornado python package to be updated.
+One is where SSL cetrtificate can not be trusted. Certificate needs to be reverified.
 
 7.Document the most critical vulnerabilities.
-Ans:
+Ans: Most critical of the older Node js version.
 
 8.Take screenshots of the scan results.
-Ans:
+Ans: Screenshot is attached
